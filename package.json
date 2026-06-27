@@ -5,7 +5,9 @@
   "description": "Static demo of the SeddleUp application experience with local demo data.",
   "scripts": {
     "start": "python3 -m http.server 4173",
-    "check": "node --check src/app.js"
+    "check": "node --check src/domain.js && node --check src/app.js && node --check test/domain.test.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
   },
   "keywords": [
     "seddleup",

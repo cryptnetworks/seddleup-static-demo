@@ -12,6 +12,17 @@ python3 -m http.server 4173
 
 Then open `http://localhost:4173`.
 
+## Test
+
+Run the syntax check and Node test suite:
+
+```bash
+npm run check
+npm test
+```
+
+In VS Code, use the `test` task to run the suite or the `Debug tests` launch configuration to step through it.
+
 ## Demo Scope
 
 - Dashboard summaries for trips, participants, expenses, and settlement status.

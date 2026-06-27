@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeArgs": [
+        "--test"
+      ],
+      "program": "${workspaceFolder}/test/domain.test.js",
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}
