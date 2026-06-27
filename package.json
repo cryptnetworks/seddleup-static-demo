@@ -1,0 +1,18 @@
+{
+  "name": "seddleup-static-demo",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Static demo of the SeddleUp application experience with local demo data.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "seddleup",
+    "static",
+    "demo",
+    "expenses",
+    "travel"
+  ],
+  "license": "MIT"
+}

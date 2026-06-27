@@ -1,0 +1,24 @@
+# SeddleUp Static Demo
+
+This repository contains a dependency-free static demo of the SeddleUp application experience. It uses local browser state and demo data, so it can run without Next.js, Prisma, authentication, or a server database.
+
+## Run
+
+Open `index.html` directly in a browser, or serve the folder locally:
+
+```bash
+npm run start
+```
+
+Then open `http://localhost:4173`.
+
+## Demo Scope
+
+- Dashboard summaries for trips, participants, expenses, and settlement status.
+- Trip list and trip detail views.
+- Participant management.
+- Expense creation, editing, filtering, and status changes.
+- Balance and settlement calculations using the same model as the main app.
+- Local reset back to bundled demo data.
+
+Browser changes are stored in `localStorage`.
