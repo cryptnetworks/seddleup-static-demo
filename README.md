@@ -7,7 +7,7 @@ This repository contains a dependency-free static demo of the SeddleUp applicati
 Open `index.html` directly in a browser, or serve the folder locally:
 
 ```bash
-npm run start
+python3 -m http.server 4173
 ```
 
 Then open `http://localhost:4173`.
